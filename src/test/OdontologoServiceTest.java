@@ -1,12 +1,12 @@
 package test;
 
-import dao.impl.DaoH2Medicamento;
-import model.Medicamento;
+import dao.impl.DaoH2Odontologo;
+import model.Odontologo;
 import org.apache.log4j.Logger;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import service.MedicamentoService;
+import service.OdontologoService;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -16,9 +16,9 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class MedicamentoServiceTest {
-    static final Logger logger = Logger.getLogger(MedicamentoServiceTest.class);
-    MedicamentoService medicamentoService = new MedicamentoService(new DaoH2Medicamento());
+class OdontologoServiceTest {
+    static final Logger logger = Logger.getLogger(OdontologoServiceTest.class);
+    OdontologoService odontologoService = new OdontologoService(new DaoH2Odontologo());
     @BeforeAll
     static void crearTablas(){
         Connection connection = null;
@@ -37,27 +37,27 @@ class MedicamentoServiceTest {
     }
 
     @Test
-    @DisplayName("Testear que un medicamento se guardo en la bd")
+    @DisplayName("Testear que un odontologo se guardo en la bd")
     void caso1(){
         //dado
-        Medicamento medicamento = new Medicamento(555,"Loratadina","Bayer",12,250);
+        Odontologo odontologo = new Odontologo(323123,"Pepita","PEPITA");
         // cuando
-        Medicamento medicamentoDesdeLaDB = medicamentoService.guardarMedicamento(medicamento);
+        Odontologo odontologoDesdeLaDB = odontologoService.guardarOdontologo(odontologo);
         //entonces
-        assertNotNull(medicamentoDesdeLaDB.getId());
+        assertNotNull(odontologoDesdeLaDB.getId());
     }
 
 
     @Test
-    @DisplayName("Testear que me traiga todos los medicamentos guardados")
+    @DisplayName("Testear que me traiga todos los odontologos guardados")
     void caso2(){
         //dado
-        List<Medicamento> medicamentos = new ArrayList<>();
+        List<Odontologo> odontologos = new ArrayList<>();
         //cuando
-        medicamentos = medicamentoService.buscarTodos();
+        odontologos = odontologoService.buscarTodos();
         //entonces
-        //assertFalse(medicamentos.isEmpty());
-        assertTrue(medicamentos.size()!= 0);
+        //assertFalse(odontologos.isEmpty());
+        assertTrue(odontologos.size()!= 0);
 
     }
 

@@ -5,22 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de34d561-10e1-4a40-a00c-ed9e2e37c131" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/create.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examen.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/farmacia.mv.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfile.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/IDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/impl/DaoH2Medicamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/H2Connection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Medicamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/MedicamentoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/MedicamentoServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmacia.trace.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/impl/DaoMemoriaOdontologo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Odontologo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/OdontologoMemoriaServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/create.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/farmacia.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/farmacia.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logfile.log" beforeDir="false" afterPath="$PROJECT_DIR$/logfile.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examen/dao/impl/DaoH2Medicamento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examen/model/Medicamento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examen/service/MedicamentoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examen/test/MedicamentoServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/impl/DaoH2Medicamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/impl/DaoH2Odontologo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Medicamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/MedicamentoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/OdontologoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/MedicamentoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/OdontologoServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +31,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -55,6 +57,10 @@
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.MedicamentoServiceTest.caso1.executor": "Run",
     "JUnit.MedicamentoServiceTest.executor": "Run",
+    "JUnit.OdontologoMemoriaServiceTest.caso1.executor": "Run",
+    "JUnit.OdontologoMemoriaServiceTest.caso2.executor": "Run",
+    "JUnit.OdontologoMemoriaServiceTest.executor": "Run",
+    "JUnit.OdontologoServiceTest.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -69,7 +75,8 @@
     "last_opened_file_path": "C:/Users/Lenovo/Desktop/PROYECTOS/CTD/BACKEND I/2. LOGGING Y ACCESO DE DATOS/EXAMEN/log4j-1.2.17.jar",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -90,8 +97,8 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MedicamentoServiceTest">
-    <configuration name="MedicamentoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.OdontologoMemoriaServiceTest">
+    <configuration name="OdontologoMemoriaServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="examen" />
       <extension name="coverage">
         <pattern>
@@ -100,13 +107,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MedicamentoServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="test.OdontologoMemoriaServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MedicamentoServiceTest.caso1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OdontologoMemoriaServiceTest.caso1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="examen" />
       <extension name="coverage">
         <pattern>
@@ -115,7 +122,54 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MedicamentoServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="test.OdontologoMemoriaServiceTest" />
+      <option name="METHOD_NAME" value="caso1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OdontologoMemoriaServiceTest.caso2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="examen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.OdontologoMemoriaServiceTest" />
+      <option name="METHOD_NAME" value="caso2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OdontologoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="examen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.OdontologoServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OdontologoServiceTest.caso1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="examen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.OdontologoServiceTest" />
       <option name="METHOD_NAME" value="caso1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -135,8 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MedicamentoServiceTest" />
-        <item itemvalue="JUnit.MedicamentoServiceTest.caso1" />
+        <item itemvalue="JUnit.OdontologoMemoriaServiceTest" />
+        <item itemvalue="JUnit.OdontologoMemoriaServiceTest.caso2" />
+        <item itemvalue="JUnit.OdontologoMemoriaServiceTest.caso1" />
+        <item itemvalue="JUnit.OdontologoServiceTest" />
+        <item itemvalue="JUnit.OdontologoServiceTest.caso1" />
       </list>
     </recent_temporary>
   </component>

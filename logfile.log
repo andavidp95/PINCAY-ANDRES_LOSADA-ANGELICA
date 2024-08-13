@@ -1,6 +1,32 @@
-[2024-08-13 17:31:42] [ INFO ] [DaoH2Medicamento:43] [guardar] medicamento persistido Medicamento{id=4, codigo=555, nombre='Loratadina', laboratorio='Bayer', cantidad=12, precio=250.0}
-[2024-08-13 17:34:39] [ INFO ] [DaoH2Medicamento:42] [guardar] medicamento persistido Medicamento{id=4, codigo=555, nombre='Loratadina', laboratorio='Bayer', cantidad=12, precio=250.0}
+[2024-08-13 17:31:42] [ INFO ] [DaoH2Medicamento:43] [guardar] odontologo persistido Medicamento{id=4, codigo=555, nombre='Loratadina', laboratorio='Bayer', cantidad=12, precio=250.0}
+[2024-08-13 17:34:39] [ INFO ] [DaoH2Medicamento:42] [guardar] odontologo persistido Medicamento{id=4, codigo=555, nombre='Loratadina', laboratorio='Bayer', cantidad=12, precio=250.0}
 [2024-08-13 17:34:39] [ INFO ] [DaoH2Medicamento:84] [buscarTodos] Medicamento{id=1, codigo=123, nombre='IBUPIRAC', laboratorio='BAYER', cantidad=10, precio=350.0}
 [2024-08-13 17:34:39] [ INFO ] [DaoH2Medicamento:84] [buscarTodos] Medicamento{id=2, codigo=789, nombre='ACEMUK', laboratorio='PFIZER', cantidad=15, precio=450.0}
 [2024-08-13 17:34:39] [ INFO ] [DaoH2Medicamento:84] [buscarTodos] Medicamento{id=3, codigo=789, nombre='PARACETAMOL', laboratorio='BAGO', cantidad=10, precio=150.0}
 [2024-08-13 17:34:39] [ INFO ] [DaoH2Medicamento:84] [buscarTodos] Medicamento{id=4, codigo=555, nombre='Loratadina', laboratorio='Bayer', cantidad=12, precio=250.0}
+[2024-08-13 17:48:36] [ ERROR] [DaoH2Medicamento:39] [guardar] Parameter "#2" is not set; SQL statement:
+INSERT INTO MEDICAMENTOS VALUES (DEFAULT,?,?) [90012-230]
+[2024-08-13 17:48:36] [ INFO ] [DaoH2Medicamento:76] [buscarTodos] Medicamento{id=1, nombre='IBUPIRAC', apellido='BAYER'}
+[2024-08-13 17:48:36] [ INFO ] [DaoH2Medicamento:76] [buscarTodos] Medicamento{id=2, nombre='ACEMUK', apellido='PFIZER'}
+[2024-08-13 17:52:23] [ INFO ] [DaoH2Medicamento:37] [guardar] odontologo persistido Medicamento{id=3, nombre='Loratadina', apellido='Bayer'}
+[2024-08-13 17:52:23] [ INFO ] [DaoH2Medicamento:76] [buscarTodos] Medicamento{id=1, nombre='IBUPIRAC', apellido='BAYER'}
+[2024-08-13 17:52:23] [ INFO ] [DaoH2Medicamento:76] [buscarTodos] Medicamento{id=2, nombre='ACEMUK', apellido='PFIZER'}
+[2024-08-13 17:52:23] [ INFO ] [DaoH2Medicamento:76] [buscarTodos] Medicamento{id=3, nombre='Loratadina', apellido='Bayer'}
+[2024-08-13 18:05:41] [ INFO ] [DaoH2Odontologo:37] [guardar] odontologo persistido Odontologo{id=3, nombre='Pepita', apellido='PEPITA'}
+[2024-08-13 18:05:41] [ INFO ] [DaoH2Odontologo:76] [buscarTodos] Odontologo{id=1, nombre='JUAN', apellido='PEREZ'}
+[2024-08-13 18:05:41] [ INFO ] [DaoH2Odontologo:76] [buscarTodos] Odontologo{id=2, nombre='NARUTO', apellido='UZUMAKI'}
+[2024-08-13 18:05:41] [ INFO ] [DaoH2Odontologo:76] [buscarTodos] Odontologo{id=3, nombre='Pepita', apellido='PEPITA'}
+[2024-08-13 18:16:19] [ INFO ] [DaoH2Odontologo:38] [guardar] odontologo persistido Odontologo{id=3, nroMatricula=323123, nombre='Pepita', apellido='PEPITA'}
+[2024-08-13 18:16:19] [ INFO ] [DaoH2Odontologo:78] [buscarTodos] Odontologo{id=1, nroMatricula=23131, nombre='JUAN', apellido='PEREZ'}
+[2024-08-13 18:16:19] [ INFO ] [DaoH2Odontologo:78] [buscarTodos] Odontologo{id=2, nroMatricula=3213, nombre='NARUTO', apellido='UZUMAKI'}
+[2024-08-13 18:16:19] [ INFO ] [DaoH2Odontologo:78] [buscarTodos] Odontologo{id=3, nroMatricula=323123, nombre='Pepita', apellido='PEPITA'}
+[2024-08-13 18:36:51] [ INFO ] [DaoMemoriaOdontologo:17] [guardar] odontologo guardado Odontologo{id=1, nroMatricula=12121, nombre='Romero', apellido='Luciana'}
+[2024-08-13 18:46:48] [ INFO ] [DaoMemoriaOdontologo:17] [guardar] odontologo guardado Odontologo{id=1, nroMatricula=1, nombre='Juan', apellido='Perez'}
+[2024-08-13 18:46:48] [ INFO ] [DaoMemoriaOdontologo:17] [guardar] odontologo guardado Odontologo{id=2, nroMatricula=2, nombre='Ana', apellido='Gomez'}
+[2024-08-13 18:48:10] [ INFO ] [DaoMemoriaOdontologo:17] [guardar] odontologo guardado Odontologo{id=1, nroMatricula=12121, nombre='Romero', apellido='Luciana'}
+[2024-08-13 18:48:10] [ INFO ] [DaoMemoriaOdontologo:17] [guardar] odontologo guardado Odontologo{id=1, nroMatricula=1, nombre='Juan', apellido='Perez'}
+[2024-08-13 18:48:10] [ INFO ] [DaoMemoriaOdontologo:17] [guardar] odontologo guardado Odontologo{id=2, nroMatricula=2, nombre='Ana', apellido='Gomez'}
+[2024-08-13 18:49:23] [ INFO ] [DaoMemoriaOdontologo:17] [guardar] odontologo guardado Odontologo{id=1, nroMatricula=12121, nombre='Romero', apellido='Luciana'}
+[2024-08-13 18:49:23] [ INFO ] [DaoMemoriaOdontologo:17] [guardar] odontologo guardado Odontologo{id=1, nroMatricula=1, nombre='Juan', apellido='Perez'}
+[2024-08-13 18:49:23] [ INFO ] [DaoMemoriaOdontologo:17] [guardar] odontologo guardado Odontologo{id=2, nroMatricula=2, nombre='Ana', apellido='Gomez'}
+[2024-08-13 18:49:23] [ INFO ] [DaoMemoriaOdontologo:17] [guardar] odontologo guardado Odontologo{id=3, nroMatricula=2, nombre='Ana', apellido='Gomez'}
